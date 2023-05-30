@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegistrationTest" thread-count="2" parallel="tests">
+    <test name="RegistrationTest" parallel="tests" >
+        <classes>
+            <class name="RegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="BasketTest" parallel="tests" >
+        <classes>
+            <class name="BasketTest"/>
+        </classes>
+    </test>
+
+    <test name="ProductTest" parallel="tests" >
+        <classes>
+            <class name="ProductTest"/>
+        </classes>
+    </test>
+
+</suite>
